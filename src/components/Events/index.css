@@ -1,0 +1,36 @@
+.event-bg-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.event-items-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: roboto;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.events-container {
+  background-color: #475569;
+  width: 60%;
+  height: 100%;
+  display: felx;
+  flex-direction: column;
+}
+.eventStatus-container {
+  width: 40%;
+  height: 100%;
+  display: felx;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
